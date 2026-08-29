@@ -1,0 +1,60 @@
+/* =========================
+   Grundlayout
+========================= */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  position: relative;
+  background: linear-gradient(
+    180deg,
+    #020617 0%,
+    #06091a 40%,
+    #140303 75%,
+    #000000 100%
+  );
+}
+
+/* =========================
+   Typografie Reset
+========================= */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+h1 {
+  color: #d6d6d6;
+  text-transform: uppercase;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.205);
+  font-family: "Montserrat", sans-serif;
+  font-size: clamp(1.2rem, 2vw, 2.4rem);
+  font-weight: 200;
+  letter-spacing: 2.5px;
+  margin-top: 2rem;
+}
+
+h3 {
+  color: #d6d6d6;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.4);
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  font-size: clamp(0.8rem, 2vw, 1rem);
+  font-weight: 200;
+  letter-spacing: 2.5px;
+  margin-top: 0.5rem;
+}
