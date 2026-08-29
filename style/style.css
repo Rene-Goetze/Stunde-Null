@@ -42,7 +42,7 @@ h1 {
   text-shadow: 0 2px 12px rgba(0, 0, 0, 0.205);
   font-family: "Montserrat", sans-serif;
   font-size: clamp(1.2rem, 2vw, 2.4rem);
-  font-weight: 200;
+  font-weight: 400;
   letter-spacing: 2.5px;
   margin-top: 2rem;
 }
@@ -54,7 +54,7 @@ h3 {
   text-transform: uppercase;
   margin-bottom: 2rem;
   font-size: clamp(0.8rem, 2vw, 1rem);
-  font-weight: 200;
+  font-weight: 400;
   letter-spacing: 2.5px;
   margin-top: 0.5rem;
 }
