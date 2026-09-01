@@ -60,48 +60,42 @@ h3 {
 }
 
 .hero {
-    min-height: 100vh;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .time-state {
-    margin-bottom: 40px;
-
-    font-size: 1rem;
-    letter-spacing: 0.15em;
-    color: #F2EAEA;
-
-    animation: state 4s ease-in-out infinite;
+  margin-bottom: 44px;
+  font-size: 1rem;
+  letter-spacing: 0.15em;
+  color: #f2eaea;
+  animation: state 4s ease-in-out infinite;
 }
 
 .hero-line {
-    width: 120px;
-    height: 1px;
-
-    background: #F2EAEA;
-
-    margin-bottom: 40px;
+  width: 120px;
+  height: 1px;
+  background: #f2eaea4b;
+  margin-bottom: 40px;
 }
 
 .hero h1 {
-    margin: 0;
-    color: #F2EAEA;
+  margin: 0;
+  color: #f2eaea;
 }
 
 .hero h3 {
-    margin-top: 12px;
-    color: #F2EAEA;
+  margin-top: 12px;
+  margin
+  color: #f2eaea;
 }
 
 .start {
-    margin-top: 60px;
-
-    color: #F2EAEA;
-    cursor: pointer;
+  margin-top: 30px;
+  color: #f2eaea;
+  cursor: pointer;
 }
