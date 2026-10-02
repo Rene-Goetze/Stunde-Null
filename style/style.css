@@ -91,7 +91,7 @@ h3 {
 
 .hero h3 {
   margin-top: 12px;
-  margin-bottom: 34px;
+  margin-bottom: 64px;
   color: #f2eaea;
 }
 
@@ -101,8 +101,37 @@ h3 {
   margin-top: 30px;
   color: #f2eaea;
   cursor: pointer;
+  
+  /* Wichtig für die Positionierung des Rahmens */
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px; /* Padding gibt dem Inhalt Luft zum Rahmen */
+  transition: color 0.3s ease;
 }
 
+/* Der animierte Rahmen über ein Pseudoelement */
+.start::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #135712;
+  border-radius: 14px;
+  box-sizing: border-box;
+  
+  /* Startzustand: Auf 0 skaliert (unsichtbar) */
+  transform: scale(0);
+  transition: transform 0.5s ease;
+}
+
+/* Hover-Zustand */
 .start:hover {
   color: #135712;
+}
+
+.start:hover::after {
+  /* Beim Hovern auf volle Größe skalieren */
+  transform: scale(1);
 }
